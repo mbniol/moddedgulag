@@ -9,6 +9,26 @@ body {
     user-select: none;
 }
 
+  /* Firefox */
+  * {
+    scrollbar-width: none;
+    scrollbar-color: #616161 #2e2e2e;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #2e2e2e;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #616161;
+    border-radius: 10px;
+    border: 0px none #ffffff;
+  }
 
 h1{
     font-size: 10vw;
